@@ -1,0 +1,14 @@
+*{
+    
+}
+
+    background-color:black;
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: silver;
+}
