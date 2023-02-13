@@ -1,9 +1,3 @@
-*{
-    
-}
-
-    background-color:black;
-}
 
 .navegacion{
     display: flex;
@@ -11,4 +5,61 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: silver;
+    height: 120px;;
+    
+}
+
+
+.BARRAALTA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1%;
+    color: azure;
+    background-color:black;
+    width: 100%;
+    height: 15vh;
+    
+    
+}
+.redico1,.redico2,.redico3{
+    margin-right: 30px;
+
+    width: 50px;
+    
+    
+
+}
+
+.redico1{
+    background-color: turquoise;
+    border-radius: 50%;
+}
+.redico2{
+    background-color: violet;
+    border-radius: 50%;
+}
+.redico3{
+    background-color: blue;
+    border-radius: 50%;
+}
+h2{
+    margin-right: 55px;
+}
+
+.checkmasbusqueda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.checks{
+    display: flex;
+    
+    
+}
+#checkboxNoLabel{
+    
 }
