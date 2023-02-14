@@ -57,9 +57,14 @@ h2{
 
 .checks{
     display: flex;
+   
+    
+    
     
     
 }
 #checkboxNoLabel{
+    margin-left: 15px;
+    margin-right: 10px;
     
 }
