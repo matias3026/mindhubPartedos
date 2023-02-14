@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     background-color: silver;
-    height: 120px;;
+    height: 90px;;
     
 }
 
@@ -51,7 +51,9 @@ h2{
 .checkmasbusqueda{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px;
     
 }
 
@@ -67,4 +69,17 @@ h2{
     margin-left: 15px;
     margin-right: 10px;
     
+}
+
+.precio{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.container-fluid-card{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
 }
