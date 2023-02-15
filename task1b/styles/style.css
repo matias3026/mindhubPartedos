@@ -85,3 +85,9 @@ h2{
     
 
 }
+
+.card{
+    width: 15rem;border: 3px solid black;margin: 35px;
+    display: flex;
+    
+}
