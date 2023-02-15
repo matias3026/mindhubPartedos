@@ -56,7 +56,7 @@ h2{
 .checkmasbusqueda{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-top: 15px;
     margin-bottom: 15px;
     
@@ -65,6 +65,7 @@ h2{
 .checks{
     display: flex;
    
+   
     
     
     
@@ -72,7 +73,7 @@ h2{
 }
 #checkboxNoLabel{
     margin-left: 15px;
-    margin-right: 10px;
+    margin-right: 5px;
     
 }
 
