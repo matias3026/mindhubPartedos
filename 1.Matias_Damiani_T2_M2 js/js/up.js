@@ -23,6 +23,5 @@ for(let event of data.events){
 
    
 
-    contenedorDeTarjetas.appendChild(card); //Luego de generar toda la variable card, con appendChild se la sumo al div de id #cards-row que 
-    //tengo como contenedor principal de las cards
+    contenedorDeTarjetas.appendChild(card); 
 }}
