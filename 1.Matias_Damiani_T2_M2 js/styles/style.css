@@ -64,12 +64,6 @@ h2{
 
 .checks{
     display: flex;
-   
-   
-    
-    
-    
-    
 }
 #checkboxNoLabel{
     margin-left: 15px;
@@ -94,4 +88,43 @@ h2{
     width: 15rem;border: 3px solid black;margin: 35px;
     display: flex;
     
+}
+
+#recenPorMi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1vh;
+    margin-left:10px ;
+    margin-right:10px ;
+}
+
+
+
+.card-body{
+    
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+}
+
+#fotarget{
+    display: flex;
+    height: 240px;
+    width: 100px;
+}
+
+.card-text{
+    display: flex;
+    margin-left: 12px;
+    width: 100px
+}
+
+.card-title{
+    margin-left: 12px;
+}
+
+.precio{
+    width: 100px;
 }

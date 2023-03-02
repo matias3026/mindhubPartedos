@@ -8,14 +8,16 @@ for(let event of data.events){
     card.className = "row";
     card.innerHTML = `
 
-    <img src="${event.image}" class="card-img-top" alt="maraton">
-    <div class="card-body" >
-    <h5 class="card-title">${event.name}</h5>
-    <p class="card-text">${event.description} </p>
-    <div class="precio">
-        <p class="Price">${event.price}</p>
-        <a href="#" class="btn btn-primary">xxxxxxxxxxx</a>
-    </div>
+    
+    <div class="card-body">
+        <img id="fotarget" src="${event.image}" class="card-img-top" alt="">
+        <h5 class="card-title">${event.name}</h5>
+        <p class="card-text">${event.description} </p>
+        <div class="precio">
+            <p class="Price">${event.price}</p>
+            <a href="#" class="btn btn-primary">xxxxxxxxxxx</a>
+        </div>
+        
     </div>
     `;
 
