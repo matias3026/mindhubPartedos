@@ -33,8 +33,6 @@
 
     width: 50px;
     
-    
-
 }
 
 .redico1{
@@ -52,24 +50,46 @@
 h2{
     margin-right: 55px;
 }
+.chebus{
+    width: 100%;
+}
 
 .checkmasbusqueda{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 15px;
     margin-bottom: 15px;
     
+    
 }
-
+.form-check-input{
+    border: 2.5px solid black;
+    
+}
 .checks{
-    display: flex;
+    font-weight: bold;
+    display: flex;  
+    
 }
 #checkboxNoLabel{
     margin-left: 15px;
     margin-right: 5px;
     
 }
+
+.form-control{
+    border:2px solid black ;       
+    
+}
+
+.botonazo{
+    border: 3px solid black;
+    background-color: white;
+    color: grey;
+    font-weight: bold;
+}
+
 
 .precio{
     display: flex;
