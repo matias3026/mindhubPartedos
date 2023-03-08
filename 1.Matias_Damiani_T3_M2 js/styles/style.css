@@ -67,6 +67,10 @@
     
 
 }
+
+checkbox{
+    color: blueviolet;
+}
 #ul_cheqs{
     height: 25px;
     font-weight: bold;
