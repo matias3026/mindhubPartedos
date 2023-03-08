@@ -43,7 +43,49 @@
     margin-right: 5px;
     
 } */
+.container-chebus{
+    background-color: rebeccapurple;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top:5px;
+    margin-bottom:55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 
+#contienecheqs{
+    background-color:red;    
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    
+
+}
+#ul_cheqs{
+    height: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    margin-left: 15px;
+    margin-right: 5px;
+    
+    list-style: none;
+}
+label{
+    color: blue;
+}
+
+input{
+    border: 2px solid black;
+}
 
 /* estilos para las cards*/
 
