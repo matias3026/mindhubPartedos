@@ -47,7 +47,7 @@
     background-color: rebeccapurple;
     display: flex;
     width: 100%;
-    height: 70px;
+    height: 90px;
     margin-top:5px;
     margin-bottom:55px;
     display: flex;
@@ -58,12 +58,12 @@
 
 #contienecheqs{
     background-color:red;    
-    height: 55px;
+    height: 90px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
+    
     
 
 }
@@ -74,8 +74,7 @@
     display: flex;
     justify-content: space-between;
     padding: 3%;
-    margin-left: 15px;
-    margin-right: 5px;
+   
     
     list-style: none;
 }
