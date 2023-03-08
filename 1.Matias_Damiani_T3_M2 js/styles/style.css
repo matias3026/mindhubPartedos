@@ -1,7 +1,10 @@
 
+/*menu de bootstap*/
 .navbar-toggler {
     background-color: aliceblue;
 }
+
+/*barra con flechas para ir de pagina con anterior y posterior*/
 
 .navegacion{
     display: flex;
@@ -15,45 +18,15 @@
 }
 
 
-.BARRAALTA{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    padding: 1%;
-    color: azure;
-    background-color:black;
-    width: 100%;
-    height: 15vh;
-    
-    
-}
-.redico1,.redico2,.redico3{
-    margin-right: 30px;
 
-    width: 50px;
-    
-    
 
-}
 
-.redico1{
-    background-color: turquoise;
-    border-radius: 50%;
-}
-.redico2{
-    background-color: violet;
-    border-radius: 50%;
-}
-.redico3{
-    background-color: blue;
-    border-radius: 50%;
-}
-h2{
-    margin-right: 55px;
-}
 
-.checkmasbusqueda{
+
+
+
+/*estilo para checks q se desabilitaron al hacer filtrado*/
+/* .checkmasbusqueda{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -69,13 +42,12 @@ h2{
     margin-left: 15px;
     margin-right: 5px;
     
-}
+} */
 
-.precio{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-}
+
+/* estilos para las cards*/
+
+
 .container-fluid-card{
     display: flex;
     justify-content: space-between;
@@ -89,19 +61,22 @@ h2{
     display: flex;
     
 }
+/*contenedor para las cartas
 
+*/
 #recenPorMi{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-evenly;
+    width:100%;
     gap: 1vh;
     margin-left:10px ;
     margin-right:10px ;
+    margin-top: 75px;
+    border: 3px solid saddlebrown;
 }
 
 
-
-.card-body{
+/* .card-body{
     
     height: 180px;
     display: flex;
@@ -123,8 +98,77 @@ h2{
 
 .card-title{
     margin-left: 12px;
+} */
+
+.card-body{
+    border: 3px solid red;
+    background-color: antiquewhite;
+    height: 390px;    
+    padding: 2%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+
+    }
+
+    .fotarget{
+        border: 3px solid blue;
+        display: flex;
+        height: 240px;
+        width: 250px;
+    }
+.card-title{
+    padding: 10px;
+    margin-left: 12px;
+    
+}
+.card-text{
+    display: flex;
+    margin-left: 12px;
+    width: 240px
+
+}
+.precio{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 105px;
+}
+    
+
+
+/*footer*/
+
+.BARRAALTA{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 1%;
+    color: azure;
+    background-color:black;
+    width: 100%;
+    height: 15vh;
+    
+    
+}
+.redico1,.redico2,.redico3{
+    margin-right: 30px;
+    width: 50px;
 }
 
-.precio{
-    width: 100px;
+.redico1{
+    background-color: turquoise;
+    border-radius: 50%;
+}
+.redico2{
+    background-color: violet;
+    border-radius: 50%;
+}
+.redico3{
+    background-color: blue;
+    border-radius: 50%;
+}
+h2{
+    margin-right: 55px;
 }
