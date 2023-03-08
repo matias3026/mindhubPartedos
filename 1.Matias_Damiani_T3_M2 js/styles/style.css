@@ -44,11 +44,11 @@
     
 } */
 .container-chebus{
-    background-color: rebeccapurple;
+   
     display: flex;
     width: 100%;
     height: 100px;
-    margin-top:5px;
+
     margin-bottom:55px;
     display: flex;
     
@@ -56,12 +56,15 @@
 }
 
 #contienecheqs{
-    background-color:red;    
+    background-color:silver; 
+    border: 2px solid rebeccapurple;   
     height: 90px;
     width: 100%;
     display: flex;
-    border: 3px solid black;
+
+    
     align-items: center;   
+    
     
 
 }
@@ -74,19 +77,30 @@
     list-style: none;
     display: flex;
     align-content: center;
+    align-items: center;
     flex-direction: row;
-    margin-left: 10px;  
+     
+    padding: 1%;
     
 
 }
 label{
     color: blue;
-    margin-left:15px ;
+    margin-left: 10px;
+    
 }
-
-
-input{
-    border: 2px solid black;
+.de{
+    margin-left: 10px;
+}
+.search-bar{
+    margin-right: 10px;
+}
+#search-input{
+    background-color:bisque;
+    margin-right: 10px;
+    width: 250px;
+    font-weight: bold;
+    color: black;
 }
 
 /* estilos para las cards*/
