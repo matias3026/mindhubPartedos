@@ -47,8 +47,11 @@ for(let event of data.events) { //recorro cada evento del array events, pertenec
     checkbox.className = "nav-item";
     checkbox.innerHTML = `
       <label>
-        <input class"de" type="checkbox" value="${event.category}"><span>${event.category}</span> 
+        <input class="de" type="checkbox" value="${event.category}"><span>${event.category}</span> 
+
+
       </label> 
+      
     `; //al input de tipo checkbox le asigno como value la categoria del evento iterado, para poder filtarlos posteriormente
     //con los checkboxes seleccionados y la barra de busqueda
     contienecheqs.appendChild(checkbox); // Por ultimo, a lo que acabo de crear en la variable checkBox, se lo mando al checkboxContainer
@@ -62,7 +65,7 @@ for(let event of data.events) { //recorro cada evento del array events, pertenec
 const busquedaInput = document.getElementById('search-input'); // Selecciono la barra de busqueda
 const checkboxes = document.querySelectorAll("input[type='checkbox']"); //selecciono los checkbox
 const cards = document.querySelectorAll(".card"); //selecciono mis cards
-const mensajeBusqueda = document.getElementById("resultados"); //selecciono un div que tengo para mostrar el msj de error
+const mensajeBusqueda = document.getElementById("mensajeBusqueda"); //selecciono un div que tengo para mostrar el msj de error
 
 
 
