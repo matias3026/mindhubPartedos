@@ -47,7 +47,7 @@ for(let event of data.events) { //recorro cada evento del array events, pertenec
     checkbox.className = "nav-item";
     checkbox.innerHTML = `
       <label>
-        <input class="de" type="checkbox" value="${event.category}"><span>${event.category}</span> 
+        <input class"de" type="checkbox" value="${event.category}"><span>${event.category}</span> 
       </label> 
     `; //al input de tipo checkbox le asigno como value la categoria del evento iterado, para poder filtarlos posteriormente
     //con los checkboxes seleccionados y la barra de busqueda
