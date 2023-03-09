@@ -10,7 +10,7 @@ for(let event of data.events){
     card.innerHTML = `
 
     
-      <div class="card-body data-category="${event.category}">
+     <div class="card-body" data-category="${event.category}">
           <img class="fotarget" src="${event.image}" class="card-img-top" alt="">
           <h5 class="card-title">${event.name}</h5>
           <p class="card-text">${event.description} </p>
@@ -26,6 +26,8 @@ for(let event of data.events){
 
     contenedorDeTarjetas.appendChild(card)
 }
+
+
 // funciones para filtrar con checks
 
 
