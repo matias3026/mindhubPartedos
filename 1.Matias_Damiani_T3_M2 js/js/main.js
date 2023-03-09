@@ -10,16 +10,16 @@ for(let event of data.events){
     card.innerHTML = `
 
     
-    <div class="card-body">
-        <img class="fotarget" src="${event.image}" class="card-img-top" alt="">
-        <h5 class="card-title">${event.name}</h5>
-        <p class="card-text">${event.description} </p>
-        <div class="precio">
-            <p class="Price">${event.price}</p>
-            <a href="#" class="btn btn-primary">xxxxxxxxxxx</a>
-        </div>
-        
-    </div>
+      <div class="card-body data-category="${event.category}">
+          <img class="fotarget" src="${event.image}" class="card-img-top" alt="">
+          <h5 class="card-title">${event.name}</h5>
+          <p class="card-text">${event.description} </p>
+          <div class="precio">
+              <p class="Price">${event.price}</p>
+              <a href="#" class="btn btn-primary">xxxxxxxxxxx</a>
+          </div>
+          
+      </div>
     `;
 
    
