@@ -5,7 +5,10 @@
 }
 
 /*barra con flechas para ir de pagina con anterior y posterior*/
-
+.contieneNav{
+    background-color:grey;
+    
+}
 .navegacion{
     display: flex;
     align-items: center;
@@ -14,6 +17,7 @@
     background-color: silver;
     height: 90px;;
     width: 100%;
+    
     
 }
 
@@ -54,11 +58,13 @@
     
     
 }
-
+main{
+    background-color:rgb(239, 225, 225); 
+}
 #contienecheqs{
-    background-color:silver; 
-    border: 2px solid rebeccapurple;   
-    height: 90px;
+    background-color:rgb(236, 230, 230); 
+       
+    height: 55px;
     width: 100%;
     display: flex;
 
@@ -114,11 +120,11 @@ label{
 
 }
 
-.card{
-    width: 15rem;border: 3px solid black;margin: 35px;
+/* .card{
+    width: 15rem;border: 3px solid pink;margin: 35px;
     display: flex;
     
-}
+} */
 /*contenedor para las cartas
 
 */
