@@ -202,9 +202,12 @@ label{
 
 
 /*footer*/
-
+.caja_redes{
+    
+}
 .BARRAALTA{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     
