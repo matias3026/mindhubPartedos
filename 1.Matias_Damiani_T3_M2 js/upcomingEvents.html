@@ -11,101 +11,63 @@
     
 </head>
 <body>
-    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <<header>
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         
-    <div class="container-fluid">
+            <div class="container-fluid">
+                
+                <a class="navbar-brand" href="./index.html"><img src="./assets/Logo Amazing Events.png" alt="eventos " width="90" height="50"></a>
         
-        <a class="navbar-brand" href="./index.html"><img src="./assets/Logo Amazing Events.png" alt="eventos " width="90" height="50"></a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-            <!-- <a class="nav-link active" aria-current="page" href="./index.html">Home</a> -->
-            <a class="nav-link" href="./index.html">Home</a>
-            <a class="nav-link" href="./upcomingEvents.html">Upcoming Events</a>
-            <a class="nav-link" href="./pastEvents.html">Past Events </a>
-            <a class="nav-link" href="./contact.html">Contact</a>
-            <a class="nav-link" href="./stats.html">Stats</a>
-            
-        </div>
-        </div>
-    </div>
-    </nav>
-      <!--flechas de direccion  -->
-    <!--flechas de direccion  -->
-    <div class="container-fluid">
-        <div class="navegacion">
-            <div class="container">
-                <div class="row">
-                    <div class="navegacion col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">                
-                        
-                        <a class="flecha" href="./index.html"><img src="./assets/caret-left-fill.png " alt="flechaizquierda " width="90" height="50"></a>
-                        <h1>Upcoming Events</h1>
-                        <a class="flecha" href="./pastEvents.html"><img src="./assets/caret-right-fill.png " alt="flechaderecha " width="90" height="50"></a>
-                   </div>
-
-    
+                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon" ></span>
+                </button>
+                
+                <div class="collapse navbar-collapse"  id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- <a class="nav-link active" aria-current="page" href="./index.html">Home</a> -->
+                    <a class="nav-link" href="./index.html">Home</a>
+                    <a class="nav-link" href="./upcomingEvents.html">Upcoming Events</a>
+                    <a class="nav-link" href="./pastEvents.html">Past Events </a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                    <a class="nav-link" href="./stats.html">Stats</a>
+                    
                 </div>
+                </div>
+            </div>
+            </nav>
+            <!--flechas de direccion  -->
+            
+                <div class="container-fluid navegacion col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"  >
+                                    
+                                
+                    <a class="flecha" href="./"><img src="./assets/caret-left-fill.png " alt="flechaizquierda " width="90" height="50"></a>
+                    <h1>Upcoming Events</h1>
+                    <a class="flecha" href="./pastEvents.html"><img src="./assets/caret-right-fill.png " alt="flechaderecha " width="90" height="50"></a>
+                    
+                </div> 
+           
 
-            </div>   
-        </div> 
-    </div>
+    </header>
 
 
            <!-- categoria + search -->
-    <div class="container-fluid-chebus">
-        <div class="checkmasbusqueda">
-            <div class="container">
-                <div class="row">
-                    <div class="checkmasbusqueda col-12 col-sm-12 col-md-6 col-lg-8">
-                        <div class="checks">
-                            <div>
-                                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">Category
-                            </div>
-                            <div>
-                            <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">Category
-                            </div>
-                            <div>
-                            <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">Category
-                            </div>
-                            <div>
-                            <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">Category
-                            </div>
-                            <div>
-                            <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">Category
-                            </div>
-                        </div>
-
-                    </div>
-                    
-                    <div class="busqueda col-12 col-sm-12 col-md-6 col-lg-4 ">
-                        
-                                <form class="d-flex" role="search">
-                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 250px;margin-top: 10px;">
-                                <button class="btn btn-outline-success" type="submit" style="height: 40px;margin-top: 10px;" >Search</button>
-                                </form>
-                    </div>
-        
-
-
-
-
-                </div>
+           <div class="container-chebus"> 
+            
+            <div id="contienecheqs" class="container-navbar" >
                 
-    
-            </div>
-    
-
-
+                <ul id="ul_cheqs" class="navbar-nav me-auto mb-2 mb-lg-0 ">          
+                             
+                </ul>
+                
+                <div class="search-bar">
+                    <input type="text" id="search-input" placeholder="Buscar por nombre o categoria">
+                    
+                </div>                 
+                
+            </div>        
 
 
         </div>
-
-            
-    </div>
     
         <!-- parte central pagina (cards)--> 
         
