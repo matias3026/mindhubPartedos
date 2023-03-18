@@ -1,0 +1,22 @@
+.cards2{
+    width: 18rem;
+    height: 24rem;
+    background-color: rgba(252, 252, 252, 0.769);
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+.targetas{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
