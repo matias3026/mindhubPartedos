@@ -7,7 +7,7 @@ for(let event of data.events){
     let card = document.createElement("div");
     card.className = "row";
     card.innerHTML = `
-      <div class="card-body" data-category="${event.category}">
+      <div class="card-body col-12 col-md-8">.col-12 .col-md-8" data-category="${event.category}">
           <img class="fotarget" src="${event.image}" class="card-img-top" alt="">
           <h5 class="card-title">${event.name}</h5>
           <p class="card-text">${event.description} </p>

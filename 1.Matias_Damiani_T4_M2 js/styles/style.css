@@ -111,14 +111,14 @@ label{
 
 /* estilos para las cards*/
 
-
+/* 
 .container-fluid-card{
     display: flex;
     justify-content: space-between;
     
     
 
-}
+} */
 
 /* .card{
     width: 15rem;border: 3px solid pink;margin: 35px;
@@ -128,7 +128,7 @@ label{
 /*contenedor para las cartas
 
 */
-#recenPorMi{
+/* .card-row{
     display: flex;
     justify-content: space-evenly;
     width:100%;
@@ -138,7 +138,7 @@ label{
     margin-top: 75px;
     border: 3px solid saddlebrown;
 }
-
+ */
 
 /* .card-body{
     
@@ -165,13 +165,7 @@ label{
 } */
 
 .card-body{
-    border: 3px solid red;
-    background-color: antiquewhite;
-    height: 390px;    
-    padding: 2%;
-    display: flex;
-    flex-direction: column;  
-    align-items: center;
+    
 
     }
 

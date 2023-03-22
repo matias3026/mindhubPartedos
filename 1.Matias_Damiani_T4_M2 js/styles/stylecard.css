@@ -1,22 +1,40 @@
-.cards2{
-    width: 18rem;
-    height: 24rem;
-    background-color: rgba(252, 252, 252, 0.769);
-    border: 3px solid black;
-    border-radius: 5px;
 
-}
-
-.targetas{
+/* .card{
     width: 100%;
     height: 1000px;
     display: flex;
     justify-content: space-evenly;
     
-}
+} */
 
 main{
     display: flex;
     flex-direction: column;
     
+}
+
+#cards-row{
+    width:95% ;
+    height: 1500px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.cardc{
+    border: 3px solid red;
+    background-color: antiquewhite;
+    width:  250px;    
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    
+     
+    
+    
+}
+.card-img-top{
+    width: 150px;
+    height: 150px;
 }
