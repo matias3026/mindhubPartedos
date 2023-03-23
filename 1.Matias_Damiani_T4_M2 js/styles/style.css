@@ -21,14 +21,53 @@
     
 }
 
+.btn{
+    background-color: rgb(45, 47, 160);
+    color: wheat;
+}
+
+.form-control {
+    border: 3px solid  rgb(45, 47, 160) ;
+    color:  rgb(45, 47, 160);
+}
+label{
+    color:rgb(45, 47, 160);
+    font-weight: bold;
+    padding: 1%;
+    
+    
+}
+.checkbox{
+    border: 2px solid rgb(45, 47, 160);
+    color: rgb(45, 47, 160);
+}
+/*cards*/
+
+.card_img{
+    width: 210px;
+    height: 150px;
+}
+
+.card_btn{
+    color: white;
+    background-color: rgb(77, 77, 225);
+    
+}
 
 
+.card-body{
+    border: 3px solid black;
+    width: 260px;
+    height: 400px;
+    
+    
+   
+}
 
+p{
+    font-weight: bold;
 
-
-
-
-
+}
 /*footer*/
 
 .BARRAALTA{
